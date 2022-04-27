@@ -28,3 +28,10 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: search movie 1
+  steps:
+  - intent: search_movie
+  - action: utter_ask_movie_details
+  - intent: movie_by_title
+  - action: action_search_movie

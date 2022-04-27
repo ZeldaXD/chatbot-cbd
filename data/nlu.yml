@@ -1,6 +1,19 @@
 version: "3.1"
 
 nlu:
+- intent: search_movie
+  examples: |
+    - can you search for a movie
+    - find me a movie
+    - look up a movie
+    - i want to watch a movie
+    - looking for a movie
+
+- intent: movie_by_title
+  examples: |
+    - movie named [Inception](title)
+    - title [Driver](title)
+
 - intent: greet
   examples: |
     - hey
