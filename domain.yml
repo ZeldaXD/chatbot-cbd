@@ -46,4 +46,9 @@ slots:
     type: text
     influence_conversation: false
     mappings:
-    - type: from_entity
+    - type: custom
+
+forms:
+  movie_title_form:
+    required_slots:
+        - title
